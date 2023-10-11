@@ -2,9 +2,9 @@
 
 
 ## Introduction
-This is the official implementation of Attentive Mask CLIP ([A-CLIP](https://arxiv.org/abs/2212.08653v2)). A-CLIP aims to improve the efficiency of CLIP training by introducing an efficient image augmentation approach called image token removal.  
+This is the official implementation of Attentive Mask CLIP ([A-CLIP](https://arxiv.org/abs/2212.08653v2), ICCV2023). A-CLIP aims to improve the efficiency of CLIP training by introducing an efficient image augmentation approach called image token removal.  
   
-The purpose of this paper is to improve the training efficiency of CLIP by using the image token removal strategy. This method has been proven effective in tasks such as mask image modeling. However, random masking in CLIP may lead to semantic mismatch issues that could affect performance. To address this concern, we propose an attentive masking strategy that retains the most relevant areas to the text while removing tokens.  
+The purpose of this work is to improve the training efficiency of CLIP by using the image token removal strategy. This method has been proven effective in tasks such as mask image modeling. However, random masking in CLIP may lead to semantic mismatch issues that could affect performance. To address this concern, we propose an attentive masking strategy that retains the most relevant areas to the text while removing tokens.  
 
 <img src="./docs/masking_Page_1.png" alt="Visualization" width="50%" height="50%">  
 
